@@ -1,0 +1,78 @@
+/*ブラウザがそれぞれ持っているcssをリセットするための記述 */
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.header {
+  width:100%;/*横幅いっぱい*/
+  height:50px;/*高さ50px*/
+  background-color:#FF9A4B;/*背景色#FF9A4B*/
+}
+
+.main-visual{
+}
+
+main{
+  width:960px;/*960px*/
+  margin:50px auto;
+  display: flex;
+}
+
+.step-box{
+  width:300px;/*横幅300*/
+  margin-right: 30px;
+  background-color:#EEEEEE;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  position: relative;
+}
+
+.a{
+  position:absolute;
+  left:0;
+  top:0;
+  color:#EEEEEE;
+  background-color: #FF9A4B;
+}
+
+.img1{
+  height:150px;
+  background-image:url(img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.img2{
+  height:150px;
+  background-image:url(img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+
+.img3{
+  height:150px;
+  background-image:url(img/flow03.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+
+.title{
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.text{
+
+}
+
+
+.footer{
+  height:50px;/*高さ50px*/
+  background-color:#AAAAAA;/*背景色#AAAAAA*/
+}
