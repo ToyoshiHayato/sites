@@ -76,3 +76,9 @@ main{
   height:50px;/*高さ50px*/
   background-color:#AAAAAA;/*背景色#AAAAAA*/
 }
+
+@media screen and (max-width: 768px) {
+  main{
+    display: block;
+  }
+}
