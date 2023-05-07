@@ -80,5 +80,12 @@ main{
 @media screen and (max-width: 768px) {
   main{
     display: block;
+    width: 100%;
+  }
+  .step-box{
+    margin-top: 20px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
